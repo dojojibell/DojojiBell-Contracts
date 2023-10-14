@@ -390,7 +390,7 @@ contract DojojiBell is ERC5050,Erc721BurningErc20OnMint, Ownable, ReentrancyGuar
         universalCode = message;
     }
 
-    // 🔔
+
     function teamMinting(address _address, uint256 _bell) public onlyOwner {
 
         uint256 totalmushrooms = totalSupply();
